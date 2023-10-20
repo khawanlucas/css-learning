@@ -1,0 +1,65 @@
+/*SELETOR POR TAG OU TIPO*/
+h1{
+    background-color: blue;
+    color: lightgreen;
+}
+
+
+/*SELETOR POR ID
+Hashtag no início
+*/
+#para1{
+    background-color: black;
+    color: white;
+}
+
+
+/*SELETOR POR CLASS
+Ponto no início
+*/
+.lorem1{
+    background: brown;
+    color: black;
+}
+
+.TEXTO{
+    text-transform: uppercase;
+}
+
+/*SELETOR UNIVERSAL (DOCUMENTO INTEIRO)
+Asterísco no início
+*/
+*{
+    background-color: beige;
+    text-transform: capitalize;
+}
+
+/*SELETOR DE ATRIBUTO
+Colchetes
+*/
+
+[title]{
+    color: red;
+}
+[title="youtube"]{
+    color: rgb(97, 222, 97);
+}
+[href$="pt"]{
+    color: black;
+}
+[href*="github"]{
+    color: blueviolet;
+}
+/*
+ATRIBUTO~="" ---> Pesquisa a palavra dentro do atributo (Precisa estar isolado)
+ATRIBUTO|="" ---> Msm caso, mas a palavra precisa ser a primeira e ser seguida por um hífen
+ATRIBUTO^="" ---> Pesquisa a palavra no começo (prefixo)
+ATRIBUTO$="" ---> Pesquisa o final (sufixo)
+ATRIBUTO*="" ---> Pesquisa em qualquer posição
+*/
+
+/*Agrupamento de seletores
+Só usar uma virgula
+*/
+
+
