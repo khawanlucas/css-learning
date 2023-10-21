@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outro exemplo</title>
+    <style>
+
+        .fundoverde li{
+            background-color: green;
+        }
+
+        .fundoazul li{
+            background-color: lightblue;
+        }
+
+        .fundoverde #sublista1 li{
+            background-color: rgb(100, 108, 222);
+        }
+
+        li > p{
+            color: rgb(92, 210, 23);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="fundoverde" id="lista1">
+            <div>Item 1</div>
+            <ul id="sublista1">
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+        <li class="fundoverde" id="lista2">
+            <div>Item 2</div>
+            <ul id="sublista2">
+                <li>Subitem 1
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo iusto perspiciatis esse labore similique, atque quisquam sed molestias eligendi explicabo, et illo iure harum repudiandae omnis, odit distinctio soluta.</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, cupiditate fugit! Facere enim, fugiat excepturi tempora porro nesciunt, ipsa tempore voluptates harum molestiae fugit quia. Fugiat excepturi distinctio minima perspiciatis!</p>
+                </li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+        <li class="fundoazul" id="lista3">
+            <div>Item 3</div>
+            <ul id="sublista3">
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

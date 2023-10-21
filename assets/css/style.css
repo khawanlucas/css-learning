@@ -61,5 +61,13 @@ ATRIBUTO*="" ---> Pesquisa em qualquer posição
 /*Agrupamento de seletores
 Só usar uma virgula
 */
+p.lorem1{
+    color: blue;
+}
 
+/*Combinador descendente = espaço ( )
+Combinador filho = sinal de maior (>)
+Combinador irmão adjacente = sinal de mais (+)
+Combinador irmão geral = til (~)
+*/
 
