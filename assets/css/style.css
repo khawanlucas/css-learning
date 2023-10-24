@@ -1,7 +1,17 @@
 /*SELETOR POR TAG OU TIPO*/
 h1{
-    background-color: blue;
-    color: lightgreen;
+    background-color: rgb(78, 78, 255);
+    color: rgb(0, 0, 0);
+    max-width: 92px;
+    height: auto;
+    margin: 5px auto;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+ol li{
+    max-width: 240px;
+    padding-left: 70px;
 }
 
 
@@ -11,6 +21,7 @@ Hashtag no início
 #para1{
     background-color: black;
     color: white;
+    max-width: 400px;
 }
 
 
@@ -18,8 +29,7 @@ Hashtag no início
 Ponto no início
 */
 .lorem1{
-    background: brown;
-    color: black;
+    color: rgb(255, 0, 0);
 }
 
 .TEXTO{
@@ -30,8 +40,9 @@ Ponto no início
 Asterísco no início
 */
 *{
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     text-transform: capitalize;
+    color: white;
 }
 
 /*SELETOR DE ATRIBUTO
@@ -45,16 +56,17 @@ Colchetes
     color: rgb(97, 222, 97);
 }
 [href$="pt"]{
-    color: black;
+    color: rgb(0, 8, 255);
 }
 [href*="github"]{
     color: blueviolet;
 }
+
 /*
 ATRIBUTO~="" ---> Pesquisa a palavra dentro do atributo (Precisa estar isolado)
 ATRIBUTO|="" ---> Msm caso, mas a palavra precisa ser a primeira e ser seguida por um hífen
 ATRIBUTO^="" ---> Pesquisa a palavra no começo (prefixo)
-ATRIBUTO$="" ---> Pesquisa o final (sufixo)
+ATRIBUTO$="" ---> Pesquisa no final (sufixo)
 ATRIBUTO*="" ---> Pesquisa em qualquer posição
 */
 
@@ -62,12 +74,89 @@ ATRIBUTO*="" ---> Pesquisa em qualquer posição
 Só usar uma virgula
 */
 p.lorem1{
-    color: blue;
+    color: rgb(161, 161, 243);
 }
 
-/*Combinador descendente = espaço ( )
+/*Combinadores
+
+Combinador descendente = espaço ( )
 Combinador filho = sinal de maior (>)
 Combinador irmão adjacente = sinal de mais (+)
 Combinador irmão geral = til (~)
+*/
+
+/*Margin e Padding
+
+Um valor = aplica nos 4 lados
+Dois valores = Em cima e embaixo / laterais (nessa ordem)
+Três valores = Em cima / laterais / embaixo 
+Quatro valores = Em cima / direita / baixo / esquerda
+*/
+
+/*Box-sizing
+
+boder-box = o conteudo, padding e a borda somado tem que dar o valor de largura e altura
+content-box = a largura e a altura são do conteúdo (sem a borda e o padding)
+*/
+
+/*Cores
+
+rgb(0 a 255, 0 a 255, 0 a 255) = vermelho, verde, azul
+rgba(255, 255, 255, 0 a 1) = com transparência
+Hexadecimal => #FFFFFFF = A cada dois números hexadecimais = vermelho, verde, azul
+Hexadecimal com tranparência = #FFFFFFFF = Dois últimos algoritmos referentes a transparência
+hsl(0 a 360, 0% a 100%, 0 a 100%) = hue (matiz), saturation (saturação), lightness (luminosidade)
+hsla(0 a 360, 0% a 100%, 0 a 100%, 0 a 1) = com transparência
+*/
+
+/*Object-fit
+
+contain = Mantem a proporção, mas diminui até caber (pode ocorrer margem)
+cover = adequa a imagem sem ter o ocorrimento de margem (pode "cobrir" partes da imagem)
+none = Ignora a altura e largura definidas e mantém a proporção original
+scale-down = Escolhe a imagem menor entre contain e none
+
+default (padrão) = destorce a imagem
+*/
+
+/*Object-position
+
+Primeiro valor referente ao eixo horizontal e segundo valor ao eixo vertical
+**Aceita valores negativos
+*/
+
+/*Background-image
+
+url('Caminho até a imagem ou url');
+linear-gradient(primeira cor, segunda cor, n-ésima cor); = gradiação linear
+radial-gradient(cor do meio, cor de fora) = gradiação radial
+repeating-linear-gradient(direção, primeira cor tamanho, segunda cor tamanho, n cor tamanho);
+
+pode adicionar camadas utilizando vírgulas entre os atributos acima
+*/
+
+/*Background-size
+
+auto = automático
+cover = cobre parte da imagem
+contain = contem a imagem até sua proporção caber
+um valor = estabelece o valor horizontal da imagem
+dois valores = estabelece o valor horizontal e vertical (respectivamente) da imagem
+
+se tiver mais de uma camada, só utilizar a vírgula para redimencionalas separadamente
+*/
+
+/*Background-repeat
+
+- repeat-x = repete horizontalmente
+- repeat-y = repete verticalmente
+- no-repeat = não repete
+- space = se repete horizontalmente e verticalmente, porém adiciona um espaço entre as imagens
+para que não haja cortes
+- round = repete para todos os lados e toca todas as pontas do espaço em que está inserida sem que seja cortada,
+porém redimenciona o seu tamanho
+
+
+repeat (default) - repete verticalmente e horizontalmente
 */
 
