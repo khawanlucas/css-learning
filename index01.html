@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Outro exemplo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+
+      *{
+        font-family: "times new roman", arial, georgia;
+      }
       div{
         width: 300px;
         height: 300px;
         background-color: aliceblue;
         border: 3px solid red;
-        display:inline-block
+        display: inline-block;
       }
 
       img{
@@ -228,7 +236,7 @@
 
       .clip, .blend{
         background-image: url(data:image/jpeg;base64,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);
-        background-color: #ff7070;
+        background-color: hsl(0, 100%, 72%);
         color: #000000;
         border: 15px dashed palegreen;
         padding: 30px;
@@ -300,6 +308,343 @@
         background-blend-mode: luminosity;
       }
 
+      .borderwidth{
+        background-color: #ff7070;
+        border-style: solid;
+        border-color: #000000;
+      }
+      #w1{
+        border-width: 15px;
+      }
+      #w2{
+        border-width: thin;
+      }
+      #w3{
+        border-width: medium;
+      }
+      #w4{
+        border-width: thick;
+      }
+      #w5{
+        border-width: 10px 20px 40px 5px; /*mesma coisa do margin e paddin*/
+      }
+
+      .borderstyle, .rad{
+        background-color: #ff7070;
+        border-width: 10px;
+        border-color: #000000;
+      }
+      #s1{
+        border-style: solid;
+      }
+      #s2{
+        border-style: dashed;
+      }
+      #s3{
+        border-style: dotted;
+      }
+      #s4{
+        border-style: double;
+      }
+      #s5{
+        border-style: groove;
+      }
+      #s6{
+        border-style: ridge;
+      }
+      #s7{
+        border-style: inset;
+      }
+      #s8{
+        border-style: outset;
+      }
+      #s9{
+        border-style: dotted dashed;
+      }
+      #s10{
+        border-style: double solid groove ridge;
+      }
+
+      #rad1{
+        border-radius: 10px;
+      }
+      #rad2{
+        border-radius: 17px;
+        border-color: transparent;
+      }
+      #rad3{
+        border-radius: 10px 50px;
+      }
+      #rad4{
+        border-radius: 60px/30px;
+      }
+      #rad5{
+        border-radius: 100%;
+      }
+
+      .borderimage, .borderiwidth, .borderrepeat, .borderoutset{
+        background-color: #000000;
+        border: 40px solid transparent;
+        border-image-source: url(./assets/images/estrelas.png);
+      }
+      #imag2{
+        border-image-source: linear-gradient(#0000ff, rgb(255, 0, 0));
+      }
+      #imag3{
+        border-image-slice: 163;
+      }
+      #imag4{
+        border-image-slice: 163 fill;
+      }
+      #imag5{
+        border-image-repeat: repeat;
+        border-image-slice: 163;
+      }
+      #imag6{
+        border-image-repeat: repeat;
+        border-image-slice: 163 fill;
+      }
+      #imag7{
+        border-image-source: linear-gradient(blue, rgb(255, 0, 0));
+        border-image-slice: 10;
+      }
+      #imag8{
+        border-image-source: linear-gradient(blue, rgb(255, 0, 0));
+        border-image-slice: 13 fill;
+      }
+
+      #bw1{
+        border-image-repeat: repeat;
+        border-image-slice: 163;
+        border-image-width: 10px;
+      }
+      #bw2{
+        border-image-repeat: repeat;
+        border-image-slice: 163;
+        border-image-width: 10px 30px;
+      }
+      #bw3{
+        border-image-repeat: repeat;
+        border-image-slice: 163;
+        border-image-width: auto;
+      }
+      #bw4{
+        border-image-source: linear-gradient(blue, rgb(255, 0, 0));
+        border-image-slice: 13;
+        border-image-width: 40px;
+      }
+
+      #br1{
+        border-image-slice: 140;
+        border-image-repeat: repeat;
+        border-image-width: 70px;
+      }
+      #br2{
+        border-image-slice: 140;
+        border-image-repeat: stretch;
+        border-image-width: 70px;
+      }
+      #br3{
+        border-image-slice: 140;
+        border-image-repeat: round;
+        border-image-width: 70px;
+      }
+      #br4{
+        border-image-slice: 140;
+        border-image-repeat: space;
+        border-image-width: 70px;
+      }
+      #br5{
+        border-image-slice: 140;
+        border-image-repeat: space round;
+        border-image-width: 70px;
+      }
+
+      #bo1{
+        margin: 40px;
+        border-image-repeat: round;
+        border-image-slice: 169;
+        border-image-outset: 40px;
+      }
+      #bo2{
+        border-image-source: linear-gradient(blue, rgb(255, 0, 0));
+        margin: 70px;
+        border-image-repeat: round;
+        border-image-slice: 16;
+        border-image-outset: 70px;
+      }
+      #bo3{
+        margin: 40px;
+        border-image-repeat: round;
+        border-image-slice: 169;
+        border-image-outset: 40px 20px;
+      }
+
+      .inicial{
+        background: initial;
+        border: initial;
+        width: initial;
+        height: initial;
+      }
+
+      @font-face {
+        font-family: roboto;
+        src: local(), url(./assets/fonts/Roboto/Roboto-BoldItalic.ttf);
+        font-weight: bold;
+      }
+      @font-face {
+        font-family: roboto;
+        src: local(), url(./assets/fonts/Roboto/Roboto-Light.ttf);
+        font-weight: normal;
+      }
+      #font1{
+        font-family: roboto;
+        font-weight: normal;
+      }
+      #font2{
+        font-family: roboto;
+        font-weight: bold;
+      }
+      #font3{
+        font-family: 'Stardos Stencil';
+        font-weight: 700;
+      }
+      #font4{
+        font-family: 'Waiting for the Sunrise';
+      }
+      #fontsize1{
+        font-size: 40px;
+      }
+      #fontsize2{
+        font-size: xx-small;
+      }
+      #fontsize3{
+        font-size: x-small;
+      }
+      #fontsize4{
+        font-size: small;
+      }
+      #fontsize5{
+        font-size: medium;
+      }
+      #fontsize6{
+        font-size: large;
+      }
+      #fontsize7{
+        font-size: x-large;
+      }
+      #fontsize8{
+        font-size: xx-large;
+      }
+      #divfont{
+        font-size: 30px;
+      }
+      #fontsize9{
+        font-size: smaller;
+      }
+      #fontsize10{
+        font-size: larger;
+      }
+
+      #italico{
+        font-style: italic;
+      }
+      #oblique{
+        font-style: oblique;
+      }
+
+      #fontweight1{
+        font-weight: 600;
+      }
+      #fontweight2{
+        font-weight: bold;
+      }
+      #divweight{
+        font-weight: normal;
+      }
+      #fontweight3{
+        font-weight: bolder;
+      }
+      #fontweight4{
+        font-weight: lighter;
+      }
+
+      #variant{
+        font-variant: small-caps;
+      }
+
+      @font-face {
+        font-family: league;
+        src: url(/assets/fonts/LeagueMono-2.300/variable/TTF/LeagueMono-VF.ttf);
+      }
+      .fontstretch{
+        font-family: league;
+      }
+      #fontstretch1{
+        font-stretch: ultra-condensed;
+      }
+      #fontstretch2{
+        font-stretch: extra-condensed;
+      }
+      #fontstretch3{
+       font-stretch: semi-condensed; 
+      }
+      #fontstretch4{
+        font-stretch: semi-expanded;
+      }
+      #fontstretch5{
+        font-stretch: expanded;
+      }
+      #fontstretch6{
+        font-stretch: extra-expanded;
+      }
+      #fontstretch7{
+        font-stretch: ultra-expanded;
+      }
+      
+      #lineheight1{
+        line-height: normal;
+      }
+      #lineheight2{
+        line-height: 2;
+      }
+      #lineheight3{
+        line-height: 80%;
+      }
+
+      #textnone{
+        text-transform: none;
+      }
+      #textcapitalize{
+        text-transform: capitalize;
+      }
+      #uppercase{
+        text-transform: uppercase;
+      }
+      #lowercase{
+        text-transform: lowercase;
+      }
+
+      .textalign{
+        background-color: lavender;
+        width: 500px;
+        height: auto;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      #textalign1{
+        text-align: right;
+      }
+      #textalign2{
+       text-align: left; 
+      }
+      #textalign3{
+        text-align: center;
+      }
+      #textalign4{
+        text-align: justify;
+      }
+      
 
     </style>
 </head>
@@ -460,6 +805,159 @@
           <div class="blend" id="color">TRILHA DE CSS</div>
           <div class="blend" id="luminosity">TRILHA DE CSS</div>
         </li>
-    </ul>
+        <!--Background: image position / size repeat attachment origin clip color-->
+        <li>Border-width
+          <br>
+          <div class="borderwidth" id="w1"></div>
+          <div class="borderwidth" id="w2"></div>
+          <div class="borderwidth" id="w3"></div>
+          <div class="borderwidth" id="w4"></div>
+          <div class="borderwidth" id="w5"></div>
+        </li>
+        <br>
+        <li>Border-style
+          <br>
+          <div id="s1" class="borderstyle"></div>
+          <div id="s2" class="borderstyle"></div>
+          <div id="s3" class="borderstyle"></div>
+          <div id="s4" class="borderstyle"></div>
+          <div id="s5" class="borderstyle"></div>
+          <div id="s6" class="borderstyle"></div>
+          <div id="s7" class="borderstyle"></div>
+          <div id="s8" class="borderstyle"></div>
+          <div id="s9" class="borderstyle"></div>
+          <div id="s10" class="borderstyle"></div>
+        </li>
+        <br>
+        <!--Border: width style color-->
+        <li>Border-radius
+          <br>
+          <div class="rad" id="rad1"></div>
+          <div class="rad" id="rad2"></div>
+          <div class="rad" id="rad3"></div>
+          <div class="rad" id="rad4"></div>
+          <div class="rad" id="rad5"></div>
+        </li>
+        <br>
+        <li>Border-image-souce e Border-image-slice
+          <br>
+          <div id="imag1" class="borderimage"></div>
+          <div id="imag2" class="borderimage"></div>
+          <div id="imag3" class="borderimage"></div>
+          <div id="imag4" class="borderimage"></div>
+          <div id="imag5" class="borderimage"></div>
+          <div id="imag6" class="borderimage"></div>
+          <div id="imag7" class="borderimage"></div>
+          <div id="imag8" class="borderimage"></div>
+        </li>
+        <br>
+        <li>Border-image-width
+          <br>
+          <div class="borderiwidth" id="bw1"></div>
+          <div class="borderiwidth" id="bw2"></div>
+          <div class="borderiwidth" id="bw3"></div>
+          <div class="borderiwidth" id="bw4"></div>
+        </li>
+        <br>
+        <li>Border-image-repeat
+          <br>
+          <div id="br1" class="borderrepeat"></div>
+          <div id="br2" class="borderrepeat"></div>
+          <div id="br3" class="borderrepeat"></div>
+          <div id="br4" class="borderrepeat"></div>
+          <div id="br5" class="borderrepeat"></div>
+        </li>
+        <br>
+        <li>Border-image-outset
+          <br>
+          <div class="borderoutset" id="bo1"></div>
+          <div class="borderoutset" id="bo2"></div>
+          <div class="borderoutset" id="bo3"></div>
+        </li>
+        <br>
+        <!--border-image: source slice / width / outset repeat-->
+        <li> Fontes
+          <br><br>
+          <ul>
+            <li> Font-face
+              <p id="font1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error sit necessitatibus obcaecati provident culpa optio cupiditate odit, at unde velit aspernatur hic, voluptatum minus. Error rerum vero beatae in?</p>
+              <p id="font2">Illo, eligendi iure. Ipsam, tempore consectetur ea doloremque aliquid libero suscipit! Nulla vero dignissimos adipisci rerum quo voluptatibus ipsa nam atque asperiores veniam, consequuntur blanditiis in optio quia, ea necessitatibus.</p>
+            </li>
+            <li>Import
+              <p id="font3">Nemo voluptatum a facere excepturi quasi aliquid repudiandae, placeat quo ab rerum ullam, illum dolorum. Quos iure, quas odit animi reiciendis, impedit cumque, alias error dolorum est eum? Saepe, accusantium.</p>
+            </li>
+            <li>Link
+              <p id="font4">Reprehenderit consectetur quaerat saepe, dicta accusamus dolore repudiandae repellendus vero tempore pariatur nihil modi veniam sed ab! Sequi doloremque perspiciatis cumque obcaecati! Impedit, amet? Molestiae odit quam reiciendis iste consequatur!</p>
+            </li>
+            <li>Font-size
+              <p id="fontsize1">Perferendis facilis rerum, pariatur aut dolores eligendi perspiciatis suscipit numquam vel unde debitis sequi quo non deleniti vero eum adipisci minima ducimus quas accusantium provident. Unde libero dolore accusantium minus?</p>
+              <p id="fontsize2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla explicabo natus, rem reiciendis adipisci voluptate dignissimos, tenetur deleniti omnis eligendi quibusdam deserunt pariatur, reprehenderit perspiciatis dolorem recusandae quod consectetur quidem.</p>
+              <p id="fontsize3">Labore illo voluptates id nisi totam, ex cumque. Cumque neque facilis minus blanditiis magni! Nemo rem voluptate repudiandae maxime quo nihil, laboriosam totam? Natus cum maxime itaque adipisci veritatis porro.</p>
+              <p id="fontsize4">Tenetur reiciendis soluta alias, quisquam laborum vitae explicabo eum cum necessitatibus debitis officia! Ullam modi obcaecati ad, perferendis, et aliquam deleniti numquam odit voluptas rerum explicabo facilis, ipsam magnam voluptate?</p>
+              <p id="fontsize5">Commodi, doloremque. Vitae dolorem ducimus quia officiis voluptates doloribus dicta laborum harum placeat numquam autem, distinctio eos ab voluptatem saepe labore enim facere in, amet, maiores quasi fugit pariatur id!</p>
+              <p id="fontsize6">Et, harum! Saepe eveniet deleniti repudiandae iste soluta nesciunt reiciendis suscipit mollitia sunt cumque non, atque eos, ab beatae, nemo aspernatur qui maiores. Sapiente id cupiditate atque! Molestias, iusto aliquid?</p>
+              <p id="fontsize7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, consequatur minima ea tenetur animi dignissimos ratione sed aut voluptates in voluptatem. Assumenda commodi repudiandae vero. Minima recusandae sed placeat! Delectus.</p>
+              <p id="fontsize8">Explicabo ut qui eius velit incidunt modi sapiente optio perspiciatis totam? Consequuntur fugiat ipsa culpa nihil similique maxime nisi assumenda veritatis reprehenderit quos, hic labore laudantium magnam voluptate soluta earum.</p>
+              <div class="inicial" id="divfont">
+                <p id="fontsize9">Expedita perspiciatis accusantium aspernatur quod ad dignissimos beatae cumque numquam sed. Ipsam cupiditate incidunt sit, exercitationem neque debitis quia adipisci esse iste expedita placeat voluptate ipsa nihil quas aut corporis.</p>
+                <p id="fontsize10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, porro est? Neque quia, optio sit temporibus molestias obcaecati voluptas. Soluta dicta, dolore expedita blanditiis doloremque perspiciatis consequatur quia consectetur incidunt?</p>
+              </div>
+            </li>
+            <li>Font-style
+              <p>Normal</p>
+              <p id="italico">Itálico</p>
+              <p id="oblique">Obliquo</p>
+            </li>
+            <li>Font-weight
+              <p>Normal</p>
+              <p id="fontweight1">Numérico</p>
+              <p id="fontweight2">Bold</p>
+              <div class="inicial" id="divweight">
+                <p>*Dentro da div*</p>
+                <p id="fontweight3">bolder</p>
+                <p id="fontweight4">lighter</p>
+              </div>
+            </li>
+            <li>Font-variant
+              <p>Normal</p>
+              <p id="variant">Small caps</p>
+            </li>
+            <li>Font-stretch
+              <p class="fontstretch" id="fontstretch1">Ultra-condensado</p>
+              <p class="fontstretch" id="fontstretch2">Extra-condensado</p>
+              <p class="fontstretch" id="fontstretch3">Semi-condensado</p>
+              <p class="fontstretch">Normal</p>
+              <p class="fontstretch" id="fontstretch4">Semi-expandido</p>
+              <p class="fontstretch" id="fontstretch5">Expandido</p>
+              <p class="fontstretch" id="fontstretch6">Extra-expandido</p>
+              <p class="fontstretch" id="fontstretch7">Ultra-expandido</p>
+              <p class="fontstretch" id="fontstretch8"></p>
+            </li>
+            <li>Line-height
+              <p id="lineheight1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quae, nobis laboriosam, nostrum sit vitae ratione tenetur maiores necessitatibus porro asperiores? Fugit aspernatur illum quibusdam quae consectetur nihil dignissimos quia!</p>
+              <hr>
+              <p id="lineheight2">Magni non nulla cupiditate dignissimos perspiciatis ea maxime, saepe magnam accusamus consectetur? Earum quam maxime sint possimus eos expedita, repellendus facilis doloribus iste laudantium quaerat numquam dolor vitae reiciendis eligendi?</p>
+              <hr>
+              <p id="lineheight3">Quae dolorum harum temporibus reiciendis soluta quaerat fuga tempore, illo qui! Vero ad praesentium, ipsa nostrum in id, obcaecati doloribus molestiae odit beatae dolorum perferendis consequatur tempore explicabo optio repellat.</p>
+            </li>
+          </ul>
+        </li>
+        <br>
+        <!--font: .... size/height .... -->
+        <li>Text-tranform
+          <p id="textnone">BOm dia</p>
+          <p id="textcapitalize">BOm dia</p>
+          <p id="uppercase">BOm dia</p>
+          <p id="lowercase">BOm dia</p>
+        </li>
+        <br>
+        <li>Text-align
+            <p class="textalign" id="textalign1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, libero vero. Fugiat magnam officia deleniti! Quod alias deserunt vero? Veniam aperiam modi vitae necessitatibus dolore ullam quae quia doloremque cupiditate?</p>
+            <p class="textalign" id="textalign2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit consequatur numquam temporibus eligendi nisi adipisci velit unde enim error perspiciatis dicta blanditiis explicabo molestias, modi neque dolore doloremque maiores.</p>
+            <p class="textalign" id="textalign3">Eos facere accusamus quasi, perferendis quibusdam dolor, illo ipsa sed sint voluptatem repudiandae quas unde quia consequatur, quis dolorum! Accusamus quas praesentium molestiae distinctio accusantium quisquam aperiam incidunt architecto est.</p>
+            <p class="textalign" id="textalign4">Dicta excepturi mollitia aut ipsum eaque aspernatur iste maiores itaque vel deleniti error doloremque, consequatur perspiciatis assumenda officiis? Ab cumque, numquam deleniti totam cupiditate ratione esse rerum odio quis quae.</p>
+        </li>
+      </ul>
+    
 </body>
 </html>
