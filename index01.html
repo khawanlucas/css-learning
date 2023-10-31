@@ -512,6 +512,7 @@
       #font4{
         font-family: 'Waiting for the Sunrise';
       }
+
       #fontsize1{
         font-size: 40px;
       }
@@ -645,6 +646,207 @@
         text-align: justify;
       }
       
+      #textdecoration1{
+        text-decoration: none;
+      }
+      #textdecoration2{
+        text-decoration: underline;
+      }
+      #textdecoration3{
+        text-decoration: line-through;
+      }
+      #textdecoration4{
+        text-decoration: overline;
+      }
+      #textdecoration5{
+        text-decoration-line: underline;
+      }
+      #textdecoration6{
+        text-decoration-line: underline;
+        text-decoration-style: double;
+      }
+      #textdecoration7{
+        text-decoration: wavy overline;
+      }
+      #textdecoration8{
+        color: #ff7070;
+        text-decoration-line: line-through;
+        text-decoration-color: #0000ff;
+      }
+      #textdecoration9{
+        text-decoration-line: underline;
+        text-decoration-thickness: 10px;
+      }
+      #textdecoration10{
+        text-decoration: dashed 3px underline green;
+      }
+      
+      #textindent1{
+        text-indent: 20px;
+      }
+      #textindent2{
+        text-indent: 0px;
+      }
+      #textindent3{
+        text-indent: 40%;
+      }
+      #textindent4{
+        text-indent: -40px;
+      }
+      #textindent5{
+        text-indent: -2%;
+      }
+
+      #letterspacing1{
+        letter-spacing: normal;
+      }
+      #letterspacing2{
+        letter-spacing: 10px;
+      }
+      #letterspacing3{
+        letter-spacing: -4px;
+      }
+      #wordspacing1{
+        word-spacing: normal;
+      }
+      #wordspacing2{
+        word-spacing: 20px;
+      }
+      #wordspacing3{
+        word-spacing: -6px;
+      }
+      
+      .pwhite{
+        width: 200px;
+        background-color: chartreuse;
+      }
+      .pwhite span{
+        background-color: seagreen;
+        color: white;
+      }
+      #whitespace1{
+        white-space: normal;
+      }
+      #whitespace2{
+        white-space: nowrap;
+      }
+      #whitespace3{
+        white-space: pre;
+      }
+      #whitespace4{
+        white-space: pre-line;
+      }
+      #whitespace5{
+        white-space: pre-wrap; 
+      }
+      #whitespace6{
+        white-space: break-spaces;
+      }
+
+      .wordwrap{
+        background-color: blueviolet;
+        width: 100px;
+        color: wheat;
+      }
+      #wordwrap1{
+        word-wrap: normal;
+      }
+      #wordwrap2{
+        word-wrap: break-word;
+      }
+
+      .wordbreak{
+        background-color: aqua;
+        width: 100px;
+      }
+      #wordbreak1{
+        word-break: break-all;
+      }
+      #wordbreak2{
+        word-break: keep-all;
+      }
+
+      .writingmode{
+        background-color: #ff7070;
+        width: 300px;
+        height: 300px;
+      }
+      #writingmode1{
+        writing-mode: horizontal-tb;
+      }
+      #writingmode2{
+        writing-mode: vertical-rl;
+      }
+      #writingmode3{
+        writing-mode: vertical-lr;
+      }
+
+      .textoverflow{
+        background-color: lawngreen;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+      }      
+      #textoverflow1{
+        text-overflow: clip;
+      }
+      #textoverflow2{
+        text-overflow: ellipsis;
+      }
+      #textoverflow3{
+        text-overflow: 'Ver mais >'; /*Apenas firefox*/
+      }
+
+      .boxshadow{
+        background-color: #fa8072;
+        margin: 20px auto;
+        border: 10px solid #8f382e;
+      }
+      #boxshadow1{
+        box-shadow: 40px 30px; 
+      }
+      #boxshadow2{
+        box-shadow: -20px 10px;
+      }
+      #boxshadow3{
+        box-shadow: -40px -20px; 
+      }
+      #boxshadow4{
+        box-shadow: 40px 30px blue; 
+      }
+      #boxshadow5{
+        box-shadow: 40px 30px 20px; 
+      }
+      #boxshadow6{
+        box-shadow: 30px 20px 30px blueviolet; 
+      }
+      #boxshadow7{
+        box-shadow: 40px 30px 10px 9px; 
+      }
+      #boxshadow8{
+        box-shadow: 40px 30px 10px -13px; 
+      }
+      #boxshadow9{
+        box-shadow: inset 10px 10px 10px; 
+      }
+      #boxshadow10{
+        box-shadow: inset 20px 20px 10px, 20px 30px orange; 
+      }
+      #boximg{
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        object-fit: cover;
+        filter: drop-shadow(10px 10px 5px gray);
+      }
+
+      #textshadow{
+        color: deeppink;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: -2px 4px 5px black;
+      }
+
 
     </style>
 </head>
@@ -956,6 +1158,128 @@
             <p class="textalign" id="textalign2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit consequatur numquam temporibus eligendi nisi adipisci velit unde enim error perspiciatis dicta blanditiis explicabo molestias, modi neque dolore doloremque maiores.</p>
             <p class="textalign" id="textalign3">Eos facere accusamus quasi, perferendis quibusdam dolor, illo ipsa sed sint voluptatem repudiandae quas unde quia consequatur, quis dolorum! Accusamus quas praesentium molestiae distinctio accusantium quisquam aperiam incidunt architecto est.</p>
             <p class="textalign" id="textalign4">Dicta excepturi mollitia aut ipsum eaque aspernatur iste maiores itaque vel deleniti error doloremque, consequatur perspiciatis assumenda officiis? Ab cumque, numquam deleniti totam cupiditate ratione esse rerum odio quis quae.</p>
+        </li>
+        <br>
+        <li>Text-decoration
+          <p id="textdecoration1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque asperiores quisquam nemo excepturi ratione, expedita quam alias tenetur beatae reiciendis sapiente animi nobis? Rem ex laborum alias hic quisquam?</p>
+          <p id="textdecoration2">Temporibus, delectus. Eveniet et possimus doloremque provident impedit corrupti a culpa magni, in neque voluptatem illo excepturi aspernatur consequuntur dolorum rerum eos cumque dignissimos numquam! Expedita officia porro et aliquid!</p>
+          <p id="textdecoration3">Deserunt numquam iste ipsa adipisci eos repellendus earum officia ea. Officia amet deleniti aut temporibus repellendus hic veniam, pariatur asperiores laboriosam est. In, ex minima vero commodi porro quos ea!</p>
+          <p id="textdecoration4">Mollitia voluptatem, officia et aut voluptate vel sunt, est reprehenderit distinctio provident cupiditate blanditiis alias error fuga natus iusto optio quisquam magni dolorum quibusdam? Maiores similique dignissimos quo in ipsam?</p>
+          <p id="textdecoration5">Eaque, autem sequi itaque labore veritatis illo ducimus tenetur debitis delectus repellat dolorem, doloremque beatae aliquam iure earum. Recusandae quas neque rem dolore officia adipisci, harum tenetur ab pariatur. Magnam.</p>
+          <p id="textdecoration6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat deserunt, culpa molestias, libero quaerat ad laudantium asperiores itaque dolore exercitationem at dolor ipsum officiis quisquam adipisci sunt fugit illum fuga.</p>
+          <p id="textdecoration7">Nihil ex inventore rem totam commodi, placeat suscipit mollitia, voluptates voluptate dolores perspiciatis deserunt praesentium? Laudantium itaque est totam excepturi ratione, sint fugit adipisci saepe quis corporis magnam expedita temporibus.</p>
+          <p id="textdecoration8">Cumque hic doloremque temporibus optio inventore accusamus accusantium, minima ullam debitis totam iure saepe laudantium vitae facere necessitatibus nisi omnis, unde dolores, tempora numquam laborum. Assumenda qui at quisquam saepe?</p>
+          <p id="textdecoration9">Ipsam suscipit fugiat voluptas eaque ducimus deserunt, facere ab ea qui distinctio fugit. Saepe soluta, velit repudiandae reprehenderit voluptatibus mollitia atque vitae id repellendus doloribus obcaecati distinctio ipsum tempore vel.</p>
+        </li>
+        <br>
+        <li>Text-indent
+          <p id="textindent1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero quas optio sequi. Nostrum, sapiente. Voluptatem quas commodi minus accusamus dolores dicta debitis hic, labore sequi saepe voluptatibus porro maiores.</p>
+          <p id="textindent2">Tenetur suscipit placeat magni sunt ipsam sed, deserunt iusto esse eius delectus perferendis hic modi adipisci quam quasi dolor quaerat itaque voluptas nesciunt ad. Culpa cum praesentium suscipit inventore distinctio.</p>
+          <p id="textindent3">Deleniti excepturi nemo sunt nobis error adipisci, harum magni dignissimos obcaecati voluptate repudiandae soluta quia voluptates atque veritatis, quos sint rem commodi repellendus nesciunt eos autem sequi. Deserunt, dicta nesciunt.</p>
+          <p id="textindent4">Hic ea quos minima. Placeat, temporibus. Veritatis, voluptate sit molestiae, labore hic praesentium totam nulla dolore aliquid mollitia nesciunt, impedit assumenda. Laboriosam explicabo fugit nisi dolore tempore illum rerum debitis.</p>
+          <p id="textindent5">Vero labore, voluptas voluptatum, nesciunt quidem dicta qui repudiandae rerum fugit dignissimos provident pariatur nulla quisquam! Unde maiores cum praesentium autem perferendis quis totam consequatur voluptatibus eaque, earum obcaecati nulla.</p>
+        </li>
+        <br>
+        <li>Letter-spacing e Word-spacing
+          <p id="letterspacing1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum voluptatem autem impedit debitis nihil sed, mollitia accusantium dolore optio tempora ratione quae placeat laudantium non aliquam aperiam molestiae. Obcaecati?</p>
+          <p id="letterspacing2">Laboriosam, ullam neque. Obcaecati accusamus maiores aut ab provident! In blanditiis optio repellendus tempore modi nam sapiente, molestias velit iure temporibus, suscipit vel vero soluta odio? Accusamus eveniet at incidunt.</p>
+          <p id="letterspacing3">Atque, animi? Repellendus veritatis ratione at aliquid nostrum dignissimos deserunt consequuntur beatae libero, magni aperiam iusto necessitatibus eum quis reiciendis voluptate blanditiis ipsum! Incidunt ex provident natus nulla in fuga.</p>
+          <p id="wordspacing1">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ad reprehenderit laborum aperiam, quisquam nihil laudantium natus sequi totam, voluptatem, mollitia dolorum nam accusamus optio tempore reiciendis. Omnis, suscipit ullam.</p>
+          <p id="wordspacing2">Molestias praesentium, consequatur aperiam amet ipsum sint perferendis culpa cum explicabo iusto dolores enim et nihil nesciunt ea nostrum quisquam incidunt commodi. Nemo, consequatur magnam nulla beatae autem vitae nihil.</p>
+          <p id="wordspacing3">Itaque omnis quia fuga qui, reprehenderit deserunt, eligendi recusandae quasi excepturi quas, illo aperiam vitae dicta hic dolorum ducimus beatae? A at, necessitatibus modi ratione veniam repellat consectetur unde non.</p>
+        </li>
+        <br>
+        <li>White-space
+          <p id="whitespace1" class="pwhite">
+          <span>
+            Lorem                 ipsum dolor sit amet consectetur adipisicing elit. 
+            Officia vitae dolorum cumque 
+            commodi, odit adipisci architecto.        Quibusdam tempora, inventore nemo sit officia dolores adipisci dolorum ex mollitia eius animi totam!
+          </span>
+          </p>
+          <p id="whitespace2" class="pwhite">
+            <span>
+              Architecto quam recusandae ipsam,                             error nemo cum fugiat maxime mollitia
+              asperiores commodi eius ullam voluptas iure officiis
+              eum corporis rem voluptates voluptatem quos cupiditate officia soluta natus laboriosam! Esse, fugiat!
+            </span>
+          </p>
+          <p id="whitespace3" class="pwhite">
+            <span>
+              Rem natus, pariatur libero vitae, beatae maxime             exercitationem 
+              
+              rerum esse nihil placeat assumenda culpa soluta molestiae
+              ipsum repellat error eligendi reprehenderit, repellendus             qui voluptatibus praesentium eum saepe voluptatum inventore! Quasi?
+            </span>
+          </p>
+          <p id="whitespace4" class="pwhite">
+            <span>
+              In quo dicta a nostrum.      Laboriosam quas quasi libero quidem? Quaerat excepturi 
+              ipsa nemo ex       illo        
+              
+              recusandae ad repudiandae velit fugiat 
+              ratione quia cupiditate tenetur ullam, iure porro cum tempora?
+            </span>
+          </p>
+          <p id="whitespace5" class="pwhite">
+            <span>
+              Ea architecto molestias 
+              
+              provident repudiandae                  quidem iste blanditiis inventore ratione ab,
+                      
+                                  beatae possimus tempora voluptatum 
+              molestiae rerum, consectetur laborum nesciunt magnam eius rem delectus in minus consequuntur! Labore, numquam necessitatibus.
+            </span>
+          </p>
+          <p id="whitespace6" class="pwhite">
+            <span>
+              Nisi iusto recusandae debitis minus 
+              
+                                                      
+              
+              
+              quaerat est sint, itaque natus odit aliquid dicta tempore qui explicabo officia 
+              necessitatibus? Ipsum officiis eos iste? Animi                      repudiandae, tenetur deserunt inventore voluptas dolore ut.
+            </span>
+          </p>
+        </li>
+        <li>Word-wrap
+          <p class="wordwrap" id="wordwrap1">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+          <p class="wordwrap" id="wordwrap2">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+        </li>
+        <li>Word-break
+          <p class="wordbreak" id="wordbreak1">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+          <p class="wordbreak" id="wordbreak2">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+        </li>
+        <li>Writing-mode
+          <p id="writingmode1" class="writingmode">Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.</p>
+          <p id="writingmode2" class="writingmode">Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.</p>
+          <br>
+          <p id="writingmode3" class="writingmode">Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.</p>
+        </li>
+        <br>
+        <li>Text-overflow
+          <p id="textoverflow1" class="textoverflow">Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.</p>
+          <p id="textoverflow2" class="textoverflow">Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.</p>
+          <p id="textoverflow3" class="textoverflow">Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.</p>
+        </li>
+        <li>Box-shadow e Drop-shadow
+          <br>
+          <div id="boxshadow1" class="boxshadow"></div><br>
+          <div id="boxshadow2" class="boxshadow"></div><br>
+          <div id="boxshadow3" class="boxshadow"></div><br>
+          <div id="boxshadow4" class="boxshadow"></div><br>
+          <div id="boxshadow5" class="boxshadow"></div><br>
+          <div id="boxshadow6" class="boxshadow"></div><br>
+          <div id="boxshadow7" class="boxshadow"></div><br>
+          <div id="boxshadow8" class="boxshadow"></div><br>
+          <div id="boxshadow9" class="boxshadow"></div><br>
+          <div id="boxshadow10" class="boxshadow"></div><br>
+          <img src="./assets/images/estrelas.png" id="boximg" alt="estrelas">
+        </li>
+        <li>Text-shadow
+          <h2 id="textshadow">Seja bem vindo</h2>
+
         </li>
       </ul>
     
