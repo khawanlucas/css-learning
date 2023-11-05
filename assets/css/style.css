@@ -1,3 +1,5 @@
+@import url(./reset.css);
+
 /*SELETOR POR TAG OU TIPO*/
 h1{
     background-color: rgb(78, 78, 255);

@@ -12,6 +12,7 @@
 
       *{
         font-family: "times new roman", arial, georgia;
+        overflow: auto;
       }
       div{
         width: 300px;
@@ -847,6 +848,42 @@
         text-shadow: -2px 4px 5px black;
       }
 
+      #opacity{
+        background-color: #FF90A4;
+        border: #8f382e solid 3px;
+        padding: 20px;
+        opacity: .5;
+      }
+      #imagopa{
+        width: 40%;
+        height: auto;
+      }
+
+      #overflow1{
+        padding: 20px;
+        overflow: visible;
+      }
+      #overflow2{
+        padding: 20px;
+        overflow: hidden;
+      }
+      #overflow3{
+        padding: 20px;
+        overflow: scroll;
+      }
+      #overflow4{
+        padding: 20px;
+        overflow: auto;
+      }
+      #overflow5{
+        padding: 20px;
+        overflow-y: scroll;
+      }
+      #overflow6{
+        white-space: nowrap;
+        padding: 20px;
+        overflow-x: scroll;
+      }
 
     </style>
 </head>
@@ -1170,6 +1207,7 @@
           <p id="textdecoration7">Nihil ex inventore rem totam commodi, placeat suscipit mollitia, voluptates voluptate dolores perspiciatis deserunt praesentium? Laudantium itaque est totam excepturi ratione, sint fugit adipisci saepe quis corporis magnam expedita temporibus.</p>
           <p id="textdecoration8">Cumque hic doloremque temporibus optio inventore accusamus accusantium, minima ullam debitis totam iure saepe laudantium vitae facere necessitatibus nisi omnis, unde dolores, tempora numquam laborum. Assumenda qui at quisquam saepe?</p>
           <p id="textdecoration9">Ipsam suscipit fugiat voluptas eaque ducimus deserunt, facere ab ea qui distinctio fugit. Saepe soluta, velit repudiandae reprehenderit voluptatibus mollitia atque vitae id repellendus doloribus obcaecati distinctio ipsum tempore vel.</p>
+          <p id="textdecoration10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quod hic laudantium fugit in, numquam praesentium, molestias quaerat nisi, eius illum reiciendis distinctio ullam maxime dolorum vero delectus tempora cumque?</p>
         </li>
         <br>
         <li>Text-indent
@@ -1279,7 +1317,53 @@
         </li>
         <li>Text-shadow
           <h2 id="textshadow">Seja bem vindo</h2>
-
+        </li>
+        <br>
+        <li>Opacity
+          <br>
+          <div id="opacity">
+            <p>Bom dia</p>
+            <img id="imagopa" src="./assets/images/estrelas.png" alt="Estrelas">
+          </div>
+        </li>
+        <br>
+        <li>Overflow
+          <br>
+          <div id="overflow1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quos omnis blanditiis doloribus facere exercitationem autem voluptatem nisi labore ut consequatur alias, nobis possimus rerum culpa consequuntur aliquid reiciendis quo!</p>
+            <p>Nesciunt voluptas exercitationem omnis porro et modi, repudiandae dicta corporis incidunt maxime quibusdam aliquid possimus excepturi ab architecto aliquam! In aut odio odit, quasi error vitae maxime consequatur repudiandae ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus quo voluptates. Ex, aspernatur nisi. Quibusdam facere veritatis itaque facilis neque, obcaecati necessitatibus tempora, a nulla magnam, impedit officia. Harum?</p>
+          </div>
+          <br><br><br>
+          <div id="overflow2">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quos omnis blanditiis doloribus facere exercitationem autem voluptatem nisi labore ut consequatur alias, nobis possimus rerum culpa consequuntur aliquid reiciendis quo!</p>
+            <p>Nesciunt voluptas exercitationem omnis porro et modi, repudiandae dicta corporis incidunt maxime quibusdam aliquid possimus excepturi ab architecto aliquam! In aut odio odit, quasi error vitae maxime consequatur repudiandae ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus quo voluptates. Ex, aspernatur nisi. Quibusdam facere veritatis itaque facilis neque, obcaecati necessitatibus tempora, a nulla magnam, impedit officia. Harum?</p>
+          </div>
+          <br>
+          <div id="overflow3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quos omnis blanditiis doloribus facere exercitationem autem voluptatem nisi labore ut consequatur alias, nobis possimus rerum culpa consequuntur aliquid reiciendis quo!</p>
+            <p>Nesciunt voluptas exercitationem omnis porro et modi, repudiandae dicta corporis incidunt maxime quibusdam aliquid possimus excepturi ab architecto aliquam! In aut odio odit, quasi error vitae maxime consequatur repudiandae ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus quo voluptates. Ex, aspernatur nisi. Quibusdam facere veritatis itaque facilis neque, obcaecati necessitatibus tempora, a nulla magnam, impedit officia. Harum?</p>
+          </div>
+          <br>
+          <div id="overflow4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quos omnis blanditiis doloribus facere exercitationem autem voluptatem nisi labore ut consequatur alias, nobis possimus rerum culpa consequuntur aliquid reiciendis quo!</p>
+            <p>Nesciunt voluptas exercitationem omnis porro et modi, repudiandae dicta corporis incidunt maxime quibusdam aliquid possimus excepturi ab architecto aliquam! In aut odio odit, quasi error vitae maxime consequatur repudiandae ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus quo voluptates. Ex, aspernatur nisi. Quibusdam facere veritatis itaque facilis neque, obcaecati necessitatibus tempora, a nulla magnam, impedit officia. Harum?</p>
+          </div>
+          <br>
+          <div id="overflow5">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quos omnis blanditiis doloribus facere exercitationem autem voluptatem nisi labore ut consequatur alias, nobis possimus rerum culpa consequuntur aliquid reiciendis quo!</p>
+            <p>Nesciunt voluptas exercitationem omnis porro et modi, repudiandae dicta corporis incidunt maxime quibusdam aliquid possimus excepturi ab architecto aliquam! In aut odio odit, quasi error vitae maxime consequatur repudiandae ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus quo voluptates. Ex, aspernatur nisi. Quibusdam facere veritatis itaque facilis neque, obcaecati necessitatibus tempora, a nulla magnam, impedit officia. Harum?</p>
+          </div>
+          <br>
+          <div id="overflow6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quos omnis blanditiis doloribus facere exercitationem autem voluptatem nisi labore ut consequatur alias, nobis possimus rerum culpa consequuntur aliquid reiciendis quo!</p>
+            <p>Nesciunt voluptas exercitationem omnis porro et modi, repudiandae dicta corporis incidunt maxime quibusdam aliquid possimus excepturi ab architecto aliquam! In aut odio odit, quasi error vitae maxime consequatur repudiandae ab.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus quo voluptates. Ex, aspernatur nisi. Quibusdam facere veritatis itaque facilis neque, obcaecati necessitatibus tempora, a nulla magnam, impedit officia. Harum?</p>
+          </div>
         </li>
       </ul>
     
